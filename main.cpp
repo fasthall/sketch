@@ -14,7 +14,7 @@ void setup() {
 void loop()
 {
   for (int i = 0; i < 1000; i++) {
-    Serial.print(i); Serial.println("  Good");
+    Serial.print(i); Serial.println("  Hello");
     delay(1000);
   }
 }
